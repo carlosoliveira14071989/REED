@@ -1,0 +1,24 @@
+homolog continua em pre event, mas foi forçado para pode integrar
+toda vez que um evento é virado para live, já começa a pagar.
+Quando vira para Live, todos os registros começam a entrar na base, pois entende que são registros válidos, ai fica na base como sujeira.
+
+Os links de categoria, pegamos em "category" na aba "edit"
+
+Buyer, advanced settings - pre aproved data, quem estiver na lista de pre aprovado, pode se credenciar
+
+
+
+----------------------------
+
+Tempo de integração entre Etouches e Stagging = Depende da fila.
+
+
+advanced settings - preload data
+
+
+eiseverywhere.com/loggedin/eReg/preloaddata.php?eventid=482179
+
+
+Na teoria, a nomenclatura de homologação é a mesma de produção.
+
+

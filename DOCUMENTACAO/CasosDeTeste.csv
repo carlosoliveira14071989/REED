@@ -1,0 +1,677 @@
+História;Descrição;Como/Quando;Critérios de aceite;Numero do Cenário;Cenários;Steps;Gherkin
+R1REED01;O objetivo desta história é validar o uso do dropdown e textbox nos campos Country Code (DDI) e Area Code (DDD) do formulário no e-Touches.;"•	Dropdown será habilitado no campo “Area Code”, quando o usuário selecionar o DDI do Brasil (+55);
+•	Textbox será habilitado no campo “Area Code” quando os demais DDIs cadastrados, forem selecionados";"•	O Country Code, deverá sempre está configurado no formato de dropdown, com os DDIs dos países; 
+•	O Area Code no formato de textbox, deverá permitir o usuário inserir no máximo quatro dígitos no campo; 
+•	Area Code, só deverá estar configurado como dorpdown, quando o Country Code for do Brasil e deverá conter todos os DDDs do Brasil;";Cenário 1;Campo Country Code, com o DDI do Brasil (+55) habilita campo Area Code no formato dropdown, com todos os DDDs do Brasil.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “(+55) BRASIL”;
+•	Habilita campo Area Code no formato dropdown;	
+•	Selecionar o DDD desejado;
+•	Encerrar teste.
+
+Validar:
+•	Area Code habilita campo no formato dropdown;
+•	Lista dos DDDs do campo Area Code, são equivalentes ao do Brasil.";"Dado que acesso o formulário, como Buyer ou Main Buyer.
+Quando Preencho o campo Country Code, campo obrigatório;
+E Selecionar “(+55) BRASIL”;
+Então será Habilitado o campo Area Code no formato dropdown; 
+Então Lista dos DDDs do campo Area Code, são equivalentes ao do Brasil."
+;;;;Cenario 2;Campo Country Code com valor = NULL, retornará mensagem “The are problems with the fields in red”;"•	Acessar formulário no e-Touches como Buyer e Main Buyer;
+•	Não preencher campo Country Code;
+•	Clicar no botão CONTINUE;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Formulário informa ao usuário, que o campo Country Code, é um campo obrigatório;";"Dado que acesso o formulário, como Buyer ou Main Buyer.
+E Não prrencho o campo ""Country Code""
+E clico no botão ""CONTINUE""
+Então será exibido na tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenario 3;Campo Country Code, com o DDI dos demais países, habilita campo Area Code no formato textbox.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos países, exceto do BRASIL”;
+•	Habilita campo Area Code no formato textbox;	
+•	Digitar DDD da sua localidade;
+•	Encerrar teste.
+
+Validar:
+•	Area Code habilita campo no formato textbox;
+";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando Preencho o campo Country Code
+E seleciono o DDI dos países, exceto Brasil
+Então será habilitado o campo ""Area Code"" no formato textbox
+Então digito o ddd da localidade"
+;;;;Cenário 4;Campo Area Code com valor = NULL, retornará mensagem “The are problems with the fields in red”;"•	Acessar formulário no e-Touches como Buyer e Main Buyer;
+•	Não preencher campo Area Code;
+•	Clicar no botão CONTINUE;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste;
+
+
+
+Validar:
+•	Formulário informa ao usuário, que o campo Area Code, é um campo obrigatório;";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando Não preencho o campo Area Code
+E clico no botão ""CONTINUE""
+Então será exibida no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 5;Campo Area code preenchido, permitir continuar o processo de registro no formulário.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Area Code, campo obrigatório;
+•	Selecionar “CONTINUE”;
+•	Permitir acesso ao processo a seguir do formulário;	
+•	Encerrar teste.
+
+Validar:
+•	Registro do credenciamento, quando preenchido corretamente, segue o fluxo correto.
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando preencho o campo area code
+E seleciono ""CONTINUE""
+Então será permitido prosseguir para a próxima fase do formulário
+"
+;;;;Cenário 6;Area code configurado em textbox, com digitos maior que 4, será sinalizado ao usuário como preenchimento incorreto.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos países, exceto do BRASIL”;
+•	Campo Area Code habilita como campo textbox, 
+•	Preencher campo com 5 dígitos 
+•	Clicar em “CONTINUE”
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar no campo do Area Code, a mensagem ""Your response is too long""
+•	Encerrar teste.
+
+Validar:
+•	Validar que a limitação aplicada (de 4 dígitos máximo) no formulário, é sinalizada ao usuário caso seja ultrapassada;
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando preencho o campo Country Code
+E selecione o DDI dos paises, exceto Brasil
+E preencho o campo com 5 dígitos
+E clico em ""CONTINUE""
+Então será exibido no topo da tela a mensage ""The are problems with the fields in red""
+"
+R1REED02;O objetivo desta história é validar as limitações de dígitos e exclusão de caracteres no campo Phone Number no formulário do e-Touches;N/A;"•	Preenchimento máximo nesse campo deverá ser de 13 dígitos;
+•	Phone Number com preenchimento obrigatório no formulário do e-Touches;
+•	Campo Phone Number, não deverá aceitar letras ou caracteres especiais, somente números.";Cenário 1;"
+Phone Number NÃO preenchido, é sinalizado para o usuário que preenchimento é obrigatório nesse campo.";"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer;
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos demais países ou DDI do BRASIL (+55)”;
+•	Campo Area Code habilita como campo textbox ou dropdow;
+•	Preencher campo Area Code;.
+•	NÃO preencher o campo Phone Number
+•	Clicar no botão “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Formulário informa ao usuário, que o campo Phone Number, é um campo obrigatório;";"Dado que acesso o formulario como Buyer ou Main buyer
+Quando Preencho o campo Country Code
+E seleciono o DDI
+Então o campo Area Code habilita como textbox ou dropdown
+E preencho o campo area code
+E não preencho o campo Phone Number
+E clico no botão ""CONTINUE""
+Então verifico no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 2;"Phone Number com preenchimento maior que 13 dígitos, retorna mensagem ""Your response is too long""";"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos demais países ou DDI do BRASIL (+55)”;
+•	Campo Area Code habilita como campo textbox ou dropdow;
+•	Preencher campo Area Code;
+•	Preencher campo Phone Number com mais de 13 dígitos;
+•	Clicar em “CONTINUE”
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar no campo do Phone Number, a mensagem ""Your response is too long""
+•	Encerrar teste.
+
+Validar:
+•	Validar que a limitação aplicada (de 13 dígitos máximo) no formulário, é sinalizada ao usuário caso seja ultrapassada;";"Dado que acesso o formulario como Buyer ou Mais Buyer
+Quando Preencho o campo Country Code
+E seleciono o DDI
+Então o campo area code Habilita como campo textbox ou Dropdown
+Quando prrencho o campo area code
+E preencho o campo Phone Number com mais de 13 digitos
+E clico em ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+Então será exibida no campo Phone Number, a mensagem ""Your response is too long"""
+;;;;Cenário 3;Campo Phone Number, NÃO pode ser preenchido com letras ou caracteres especiais ;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos demais países ou DDI do BRASIL (+55)”;
+•	Campo Area Code habilita como campo textbox ou dropdow;
+•	Preencher campo Area Code;
+•	Preencher campo Phone Number com letras e/ou caracteres especiais
+•	Clicar em “CONTINUE”
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar no campo do Phone Number, a mensagem "" You must specify a number.""
+•	Encerrar teste.
+
+Validar:
+•	Campo Phone Number aceita somente números e quando inserido letras ou caracteres especiais, é sinalizado para o usuário preenchimento incorreto";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando Preencho o campo Country Code
+E seleciono o DDI
+Então será habilitado o campo ""Area Code"" no formato textbox
+Quando prrencho o campo Area Code
+E preencho o campo Phone Number com letras ou caracteres especiais
+E clico em ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+E"
+;;;;Cenário 4;Campo Phone Number, preenchido corretamente, libera próxima fase do formulário para o usuário.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer.
+•	Preencher o campo Country Code, campo obrigatório;
+•	Selecionar “DDI dos demais países ou DDI do BRASIL (+55)”;
+•	Campo Area Code habilita como campo textbox ou dropdow;
+•	Preencher campo Area Code;
+•	Preencher campo Phone Number;
+•	Clicar em “CONTINUE”
+•	Permitir acesso a próxima fase do formulário no e-Touches;
+•	Encerrar teste.
+
+Validar:
+•	Campo Phone Number preenchido corretamente, próxima fase é liberado para o usuário";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando preencho o campo Country Code
+E seleciono o DDI
+Então será habilitado o campo ""Area Code"" no formato textbox
+Quando prrencho o campo Area Code
+E preencho o campo Phone Number
+E clico em ""CONTINUE""
+Então será permitido o acesso á próxima fase do formulário do E-Touches"
+R1REED03;O objetivo desta história é validar as limitações de dígitos e exclusão de caracteres no campo Zip (Postal Code) no formulário do e-Touches.;N/A;"•	Preenchimento máximo nesse campo deverá ser de 20 dígitos;
+•	Campo Zip (Postal Code), não deverá aceitar letras ou caracteres especiais, somente números.";Cenário 1;ZIP (Postal Code) preenchido com letras e/ou caracteres especiais, é sinalizado para o usuário que preenchimento está incorreto.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer;
+•	Preencher ZIP (Postal Code), com letras ou caracteres especiais;
+•	Clicar no botão “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar no campo ZIP, mensagem “Your must specify a number”
+•	Encerrar teste.
+
+Validar:
+•	Formulário informa ao usuário, que o campo ZIP (Postal Code), é permitido somente números no preenchimento;";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando preencho o ZIP(Postal Code), com letras ou caracteres especiais
+E clico no botão ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+Então será exibido no campo ZIP a mensagem ""Your must specify a number"""
+;;;;Cenário 2;Campo ZIP (Postal Code), NÃO preenchido pelo usuário, deverá acessar próxima fase, pois campo NÃO é obrigatório.;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer;
+•	NÃO preencher ZIP (Postal Code);
+•	Clicar no botão “CONTINUE”;
+•	Usuário deverá ser direcionado para a próxima fase do formulário;
+•	Encerrar teste.
+
+Validar:
+•	Campo ZIP (Postal Code), não é um campo obrigatório.";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando não preencho o ZIP(Postal Code)
+E clico no botão ""CONTINUE""
+Então serei redirecionado para a próxima fase do formulario"
+;;;;Cenário 3;ZIP (Postal Code) preenchido com números maiores que 20 dígitos, é sinalizado preenchimento incorreto para o usuário;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer;
+•	Preencher ZIP (Postal Code), com mais de 20 dígitos;
+•	Clicar no botão “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar no campo ZIP (Postal Code), mensagem “Your response is too long”
+•	Encerrar teste.
+
+Validar:
+
+•     Que preenchimento com mais de 20 digitos no campo ZIP (Postal Code), é invalido e é sinalizado para o usuário.";"Dado que acesso o formulário como buyer ou Main Buyer
+Quando preencho o zip(Postal Code), com mais de 20 dígitos
+E clico no botão ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"";
+Então será exibido no campo ZIP(Postal Code), a mensagem ""Your response is too long"""
+;;;;Cenário 4;ZIP (Postal Code) preenchido corretamente, é liberado próxima fase para o usuário;"•	Usuário deverá acessar o formulário, como Buyer ou Main Buyer;
+•	Preencher ZIP (Postal Code)
+•	Clicar no botão “CONTINUE”;
+•	Permite acesso ao usuário para a próxima fase;
+•	Encerrar teste.
+
+Validar:
+
+•	ZIP (Postal Code), quando preenchido pelo usuário, dentro das regras pré-estabelecidas para esse campo, usuário tem acesso a próxima fase do e-Touches.
+";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando preencho o ZIP(Postal Code) com dados válidos
+E clico no botão ""CONTINUE""
+Então seguirei para a próxima fase do formulario"
+R1REED04;O objetivo desta história é validar o uso do dropdown na condicional “YES/NO” e a limitação do campo IATA Number.;"•	Dropdown do IATA, quando o usuário selecionar a condição “YES”, habilita campo textbox para inserir o NUMBER IATA;
+•	Dropdown do IATA, quando o usuário selecionar a condição “NO”, usuário será liberado para próxima fase do formulário;";"•	Dropdown do IATA, deverá ser preenchido obrigatoriamente; 
+•	Textbox do NUMBER IATA, deverá ser preenchido obrigatoriamente pelo usuário;
+•	Campo IATA NUMBER não aceita letras ou caracteres especiais, somente números; 
+•	IATA NUMBER, poderá ser aceito a condição “NO”, pois usuário não é obrigatório a ter um número de IATA.";Cenário 1;"Textbox IATA NUMBER, preenchido com letras e/ou caracteres especiais, dar mensagem de erro ""You must specify a number"" ";"•	Usuário deverá acessar o formulário, como Buyer;
+•	Preencher o campo dropdown IATA NUMBER, com a condicional “YES”;
+•	Habilita campo textbox, solicitando o número do IATA;
+•	Preencher campo, com letras e/ou caracteres especiais;	
+•	Clicar no botão “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar campo IATA NUMBER (textbox), a mensagem “You must specify a number”
+•	Encerrar teste.
+
+Validar:
+•	IATA NUMBER (textbox), aceita apenas números no preenchimento desse campo.
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando preencho o campo dropdown IATA NUMBER,com a condicional ""YES""
+Então será habilitado o textbox solicitando o numero do IATA
+E preencho o textbox com caracteres especiais
+E Clico no botão ""CONTINUE""
+Então no campo IATA NUMBER, será exibida a mensagem ""You must specify a number"""
+;;;;Cenário 2 ;Campo condicional IATA NUMBER (Dropdow) com valor = NULL, sinaliza para o usuário preenchimento obrigatório.;"•	Acessar formulário no e-Touches como Buyer;
+•	Não preencher campo condicional do IATA NUMBER (dropdow);
+•	Clicar no botão CONTINUE;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Formulário informa ao usuário, que o campo IATA NUMBER (dropdow), é um campo obrigatório;
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando não preencho o campo condicional do IAYA Number(Dropdown)
+E clico no botão ""CONTINUE""
+Então será exibida a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 3 ;Campo IATA NUMBER (Textbox) com valor = NULL, sinaliza para o usuário preenchimento obrigatório.;"•	Acessar formulário no e-Touches como Buyer;
+•	Preencher campo IATA NUMBER (dropbox), com a condicional “YES”
+•	Habilita campo textbox, solicitando número do IATA;
+•	Não preencher campo do IATA NUMBER (Textbox);
+•	Clicar no botão CONTINUE;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Formulário informa ao usuário, que o campo IATA NUMBER (textbox), é um campo obrigatório;
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando preencho o campo IATA NUMBER(dropbox) com a condicional ""YES""
+Então será habilitado o textbox solicitando o numero do IATA
+E não preenco o campo do IATA NUMBER
+E clico no botão ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 4;"Number IATA preenchido com condicional “NO”, libera próxima fase do formulário para o usuário;";"•	Acessar formulário no e-Touches como Buyer;
+•	Preencher campo do IATA NUMBER (dropdow), com a condição “NO”;
+•	NÃO habilita campo textbox para inserir o número do IATA;
+•	Clicar no botão CONTINUE;	
+•	Permitir acesso a próxima fase do formulário para o usuário;
+•	Encerrar teste.
+
+Validar:
+•	Condicional “NO” do formulário, permite acesso a próxima fase, pois o usuário não é obrigatório a possuir um número de IATA.";"Dado que acesso o formulario como Buyer ou Main Buyer
+E preencho o campo do IATA NUMBER(dropdown) com a dondição ""NO""
+Então não será habilitado o campo textbox para inserir o numero do IATA
+Então será permitido o acesso a proximo fase do formulario"
+;;;;Cenário 5;"Condicional Number IATA (dropbox) e NUMBER IATA (textbox) preenchido com condicional “YES” corretamente, libera próxima fase do formulário para o usuário;
+";"•	Acessar formulário no e-Touches como Buyer;
+•	Preencher campo do IATA NUMBER (dropdow), com a condição “YES”;
+•	Habilita campo textbox para inserir o número do IATA;
+•	Preencher campo IATA NUMBER (textbox);
+•	Clicar no botão CONTINUE;	
+•	Permitir acesso a próxima fase do formulário para o usuário;
+•	Encerrar teste.
+
+Validar:
+•	Preenchimento correto dos campos no formulário, acesso para a próxima fase e liberado para o usuário.";"Dado que acesso o formulario como Buyer ou Main Buyer
+E preencho o campo do IATA NUMBER(dropdown) com a dondição ""YES""
+Então será habilitado o textbox para inserir o numero do IATA
+E preencho o campo IATA NUMBER(textbox)
+E clico no botão ""CONTINUE""
+Então será permitido o acesso a próxima fase do formulário"
+R1REED05;O objetivo desta história é validar as limitações aplicadas no formulário do e-Touches E obrigatoriedade nos campos CNPJ, COMPANY SIZE e OPERATNG SINCE;"•	N/A";"•	CNPJ deve conter exatamente 14 dígitos no preenchimento do mesmo; 
+•	CNPJ, NÃO permite preenchimento com letras e/ou caracteres especiais;
+•	Company Size, preenchimento obrigatório pelo usuário;
+•	Company Size, deve aparecer como um campo dropdow;
+•	Operating Since, preenchimento obrigatório pelo usuário;
+•	Operating Since, deve aparecer como um campo dropdown.";Cenário 1;Campo CNPJ preenchido com mais de 14 dígitos, retorna mensagem “Your response is too long.”;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Preencher o campo CNPJ;
+•	Preencher mais de 14 dígitos;
+•	Clicar em “CONTINUE”;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar campo CNPJ, a mensagem “Your response is too long”
+•	Encerrar teste.
+
+Validar:
+•	Campo CNPJ não aceita mais de 14 dígitos, conforme limitação aplicada no e-Touches. 
+";"Dado que acesso o formulario como Buyer ou Main Buyer
+Quando preencho o campo CNPJ com mais de 14 dígitos
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 2;Campo CNPJ preenchido com menos de 14 dígitos, retorna mensagem “Your response is too short.”;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Preencher o campo CNPJ;
+•	Preencher menos de 14 dígitos;
+•	Clicar em “CONTINUE”;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar campo CNPJ, a mensagem “Your response is too short”
+•	Encerrar teste.
+
+Validar:
+•	Campo CNPJ não aceita menos de 14 dígitos, conforme limitação aplicada no e-Touches. ";"Dado que acesso o formulário como Buyer 
+Quando preencho o campo CNPJ com menos de 14 dígitos
+E clico em CONTINUE
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+Então será exibido no campo CNPJ a mensagem ""Your response is too short"""
+;;;;Cenário 3 ;Campo CNPJ NÃO aceita letras e/ou caracteres especiais, sistema sinaliza preenchimento incorreto.;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Preencher o campo CNPJ;
+•	Preencher campo com letras e/ou caracteres especiais;
+•	Clicar em “CONTINUE”;	
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Verificar campo CNPJ, a mensagem “You must specify a number”
+•	Encerrar teste.
+
+Validar:
+•	Sinaliza ao usuário que preenchimento está incorreto, pois o campo é permitido somente números.
+";"Dado que acesso o formulário como BUYER
+Quando preencho o campo CNPJ com letras ou caracteres especiais
+E Clico em ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+Então será exibido no campo CNPJ a mensagem ""You must specify a number"""
+;;;;Cenário 4;Campo CNPJ NÃO preenchido pelo usuário, sistema permite acesso a próxima fase do formulário;"•	Usuário deverá acessar o formulário, como Buyer;
+•	NÃO preencher CNPJ;
+•	Clicar em “CONTINUE”;
+•	Permite acesso para a próxima fase do formulário 	
+•	Encerrar teste.
+
+Validar:
+•	Quando o usuário não preencher o CNPJ, ele será direcionado para a próxima fase, pois o campo NÃO é obrigatório.";"Dado que acesso o formulário como Buyer
+Quando não preencho o CNPJ
+E clico em ""CONTINUE""
+Então será permitido o acesso para a próxima fase do formulário"
+;;;;Cenário 5;Campo CNPJ preenchido pelo usuário corretamente, sistema permite acesso a próxima fase do formulário;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Preencher o CNPJ;
+•	Clicar em “CONTINUE”;
+•	Permite acesso para a próxima fase do formulário 	
+•	Encerrar teste.
+Validar:
+•	Validar que preenchimento feito corretamente pelo usuário, será direcionado para a próxima fase do formulário.";"Dado que acesso o formulário como BUYER
+Quando preencho o CNPJ
+E clico em ""CONTINUE""
+Então será permitido o acesso para a próxima fase do formulário"
+;;;;Cenário 6;Campo Company Size (dropdown) selecionado opção corretamente pelo usuário, sistema permite acesso a próxima fase do formulário.;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Selecionar o campo Company Size (dropdow);
+•	Selecionar a opção equivalente a empresa;
+•	Clicar em “CONTINUE”;
+•	Permite acesso para a próxima fase do formulário 	
+•	Encerrar teste.
+
+Validar:
+•	Validar que preenchimento feito corretamente pelo usuário, será direcionado para a próxima fase do formulário.";"Dado que acesso o formulário como Buyer
+Quando seleciono o campo Company Size(dropdown)
+E seleciono a opção equivalente a empresa
+E clico em ""CONTINUE""
+Então será permitido o acesso para a próxima fase do formulário"
+;;;;Cenário 7;Company Size NÃO preenchido pelo usuário, sistema sinaliza que preenchimento do campo é obrigatório.;"•	Usuário deverá acessar o formulário, como Buyer;
+•	NÃO selecionar campo Company Size (dropdown);
+•	Clicar em “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Quando o usuário não preencher o campo Company Size, sistema sinaliza para usuário preenchimento obrigatório.";"Dado que acesso o formulário como Buyer
+Quando não seleciono o campo Company Size(dropdown)
+E clico em ""CONTINUE""
+Então será exibido no topo da tela, a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 8;Campo Operating Since (dropdow) selecionando opção corretamente pelo usuário, sistema permite acesso a próxima fase do formulário.;"•	Usuário deverá acessar o formulário, como Buyer;
+•	Selecionar o campo Operating Since (dropdow);
+•	Selecionar a opção equivalente a empresa;
+•	Clicar em “CONTINUE”;
+•	Permite acesso para a próxima fase do formulário 	
+•	Encerrar teste.
+
+Validar:
+•	Validar que preenchimento feito corretamente pelo usuário, será direcionado para a próxima fase do formulário.
+";"Dado que acesso o formulário como Buyer
+Quando seleciono o campo Operating Since(dropdown)
+E seleciono a opção equivalente a empresa
+E clico em ""CONTINUE""
+Então será permitido o acesso para a próxima fase do formulário"
+;;;;Cenário 9;Operating Since NÃO preenchido pelo usuário, sistema sinaliza que preenchimento do campo é obrigatório.;"•	Usuário deverá acessar o formulário, como Buyer;
+•	NÃO selecionar campo Operating Since (dropdown);
+•	Clicar em “CONTINUE”;
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Quando o usuário não preencher o campo Company Size, sistema sinaliza para usuário preenchimento obrigatório.";"Dado que acesso o formulário como Buyer
+Quando não seleciono o campo Operating Since(dropdown)
+E clico em ""CONTINUE""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"""
+R1REED06;O objetivo desta história é validar o novo fluxo de pagamento no e-Touches (Pagamento via Cielo).;"•	Pagamento será feito, no próprio site do e-Touches, no final do registro de cada credenciamento (Buyer + Main Buyer).
+•	Fluxograma da liberação da segunda fase, pelo pagamento via Cielo";"•	O pagamento é vinculado e cobrado somente para o Buyer; 
+•	O credenciamento só é confirmado, após o pagamento realizado com sucesso; 
+•	Deverá ser utilizado apenas cartão de crédito no pagamento;";Cenário 1 ;"Campo Credit Card Number NÃO preenchido, retorna mensagem ""There are problems with the fields in red."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	NÃO digitar o número do cartão de crédito;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar ao usuário que campo solicitando número do cartão, é obrigatório. 
+
+";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando prossigo para o pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E não digito o número do cartão de crédito
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red""
+"
+;;;;Cenário 2 ;"Campo Credit Card Number preenchido com cartão invalido, retorna mensagem "" There was an error processing your card."" 
+";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito INVALIDO;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem ""There was an error processing your card."" 
+•	Encerrar teste.
+
+Validar:
+•	Pagamento só é feito quando informações do cartão de crédito é inserido corretamente. 
+";"Dado que acesso o formulário como Buyer ou Main Buyer
+Quando prossigo para o pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito inválido
+E clico em Make Payment
+Então será exibido no topo da tela a mensagem ""There was an error processing your card."""
+;;;;Cenário 3;"Expiration date no campo Month NÃO preenchido, retorna mensagem “There are problems with the fields in red."" 
+";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	NÃO digitar “Month” do “Espiration date”;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem "" There are problems with the fields in red."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar ao usuário que campo solicitando data de validade do cartão, é obrigatório. ";"Dado que preencho o formulário como Buyer ou Main buyer
+Quando prossigo para a última etapa, pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito
+E não digito o month do ""Expiration date""
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 4;"Campo Month, do Experation Date preenchido com dado invalido, retorna mensagem "" There was an error processing your card."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês INVALIDO da validade do cartão;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem ""There was an error processing your card."" 
+•	Encerrar teste.
+
+Validar:
+•	Pagamento só é feito quando informações do cartão de crédito é inserido corretamente. ";"Dado que preencho o formulário como Buyer ou Main buyer
+Quando prossigo para a última etapa, pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito
+E selecino mês INVÀLIDO da validade do cartão
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""There was an error processing your card."""
+;;;;Cenário 5;"Expiration date no campo Year NÃO preenchido, retorna mensagem “There are problems with the fields in red."" 
+";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	NÃO selecionar o “Year” do “Espiration date”;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem "" There are problems with the fields in red."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar ao usuário que campo solicitando ano de validade do cartão, é obrigatório. ";"Dado que preencho o formulário como Buyer ou Main Buyer
+Quando prossigo para a ultima etapa, pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E não seleciono o ""Year"" do ""Expiration date""
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""There are problems with the fields in red."""
+;;;;Cenário 6;"Campo Year, do Experation Date preenchido com dado invalido, retorna mensagem "" There was an error processing your card."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de validade do cartão;
+•	Selecionar ano de validade do cartão INVALIDO;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem ""There was an error processing your card."" 
+•	Encerrar teste.
+
+Validar:
+•	Pagamento só é feito quando informações do cartão de crédito é inserido corretamente. ";"Dado que preencho o formulário como Buyer ou Main Buyer
+Quando prossigo para a ultima etapa, pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento INVALIDO do cartão
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""There was an error processing your card."""
+;;;;Cenário 7;"First Name NÃO preenchido, retorna mensagem “There are problems with the fields in red."" 
+";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	Selecionar ano de vencimento do cartão;
+•	NÃO digitar first name do cartão;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem "" There are problems with the fields in red."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar que campo solicitando primeiro nome do usuário do cartão, é obrigatório. ";"Dado preencho o formulário como Buyer ou Main Buyer
+Quando prossigo para a ultima etapa,  o pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00 no cartão
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento do cartão
+E não digito o first name do cartão
+E clico em ""Make Payment""
+Então será exibido no topo da tela, a mensagem ""There are problems with the fields in red."""
+;;;;Cenário 8;"First Name preenchido com nome INVALIDO, retorna mensagem “There are problems with the fields in red."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	Selecionar ano de vencimento do cartão;
+•	Digitar first name do cartão INVALIDO;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem “There was an error processing your card."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar que o pagamento só é efetuado, quando as informações do cartão de crédito são inseridas corretamente.";"Dado que preencho o forulário do Buyer ou Mains Buyer
+Quando prossigo para a etapa de pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento do cartão
+E digito o first name INVALIDO do cartão
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""There was an error processing your card."""
+;;;;Cenário 9;"Last Name NÃO preenchido, retorna mensagem “There are problems with the fields in red."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	Selecionar ano de vencimento do cartão;
+•	Digitar first name do cartão;
+•	NÃO digitar last name do cartão
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem "" There are problems with the fields in red."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar que campo solicitando último nome do usuário do cartão, é obrigatório. ";"Dado que preencho o forulário do Buyer ou Mains Buyer
+Quando prossigo para a etapa de pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento do cartão
+E digito o first name do cartão
+E não digito o last name do cartão
+E clico em ""Make Payment""
+Então será exibido no topo da tela, a mensagem ""There are problems with the fields in red."""
+;;;;Cenário 10;"Last Name preenchido com nome INVALIDO, retorna mensagem “There are problems with the fields in red."" ";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	Selecionar ano de vencimento do cartão;
+•	Digitar first name do cartão;
+•	Digitar last name do cartão INVALIDO;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem “There was an error processing your card."" 
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar que o pagamento só é efetuado, quando as informações do cartão de crédito são inseridas corretamente.
+";"Dado que preencho o forulário do Buyer ou Mains Buyer
+Quando prossigo para a etapa de pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento do cartão
+E digito o first name do cartão
+E digito o last name INVALIDO do cartão
+E clico em ""make Payment""
+Então será exibido no topo da tela a mensagem ""There  was an error processing your card."""
+;;;;Cenário 11 ;"Campo Credit Card Number preenchido com letras e/ou caracteres especiais, retorna mensagem ""There are problems with the fields in red.";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento”;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar no campo do número do cartão de crédito, com letras e/ou caracteres especiais;
+•	Clicar em “Make Payment”
+•	Verificar no topo da tela, a mensagem “The are problems with the fields in red”;
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar ao usuário que campo só aceita números.";"Dado que preencho o forulário do Buyer ou Mains Buyer
+Quando prossigo para a etapa de pagamento
+E seleciono a flag que aceita a cobrança no valor de R$1,00
+E digito no campo do número do cartão de crédito, letras e/ou caracteres especiais
+E clico em ""Make Payment""
+Então será exibido no topo da tela a mensagem ""The are problems with the fields in red"""
+;;;;Cenário 12;"Dados do cartão de crédito preenchido corretamente, finaliza o processo do registro do credenciamento do Buyer e Main Buyer.
+";"•	Usuário deverá acessar e-Touches;
+•	Preencher o formulário do Buyer e Main Buyer;
+•	Prosseguir para a última etapa, o pagamento;
+•	Selecionar a flag que aceita a cobrança no valor de R$1,00, no cartão;	
+•	Digitar o número do cartão de crédito;
+•	Selecionar mês de vencimento do cartão;
+•	Selecionar ano de vencimento do cartão;
+•	Digitar first name do cartão;
+•	Digitar last name do cartão;
+•	Clicar em “Make Payment”
+•	Processo de credenciamento finalizado com sucesso;
+•	Encerrar teste.
+
+Validar:
+•	Sinalizar que o pagamento só é efetuado, quando as informações do cartão de crédito são inseridas corretamente.";"Dado que preencho o formulário como Buyer ou Main Buyer
+Quando prossigo para a última etapa, pagamento
+E seleciono a flag que aceita a cobrança no valor de R$ 1,00 no cartão
+E digito o número do cartão de crédito
+E seleciono o mês de vencimento do cartão
+E seleciono o ano de vencimento do cartão
+E digito o first name do cartão
+E digito o last name do cartão
+E clico em ""Make Payment""
+Então o processo de credenciamento será finalizado com sucesso
+"
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
