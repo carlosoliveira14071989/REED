@@ -1,0 +1,3148 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Aventri.com</Author>
+  <LastAuthor>Carlos Alberto (RXAM)</LastAuthor>
+  <Created>2020-02-04T18:12:44Z</Created>
+  <LastSaved>2020-02-04T18:49:34Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6900</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Color="#0000FF"
+    ss:Underline="Single"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s67">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Registrant List">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="178" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:StyleID="s62" ss:Width="126"/>
+   <Column ss:StyleID="s62" ss:Width="120"/>
+   <Column ss:StyleID="s62" ss:Width="78"/>
+   <Column ss:StyleID="s62" ss:Width="102"/>
+   <Column ss:StyleID="s62" ss:Width="108"/>
+   <Column ss:StyleID="s62" ss:Width="102" ss:Span="1"/>
+   <Column ss:Index="9" ss:StyleID="s62" ss:Width="126"/>
+   <Column ss:StyleID="s62" ss:Width="114"/>
+   <Row>
+    <Cell><Data ss:Type="String"> São Paulo</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"> 481815 ILTM Latin America 2020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Conf #</Data></Cell>
+    <Cell><Data ss:Type="String">First Name (Attendee)</Data></Cell>
+    <Cell><Data ss:Type="String">Last Name (Attendee)</Data></Cell>
+    <Cell><Data ss:Type="String">Email Address</Data></Cell>
+    <Cell><Data ss:Type="String">Registration Date</Data></Cell>
+    <Cell><Data ss:Type="String">Last Modified Date</Data></Cell>
+    <Cell><Data ss:Type="String">Cancellation Date</Data></Cell>
+    <Cell><Data ss:Type="String">Attendee Category</Data></Cell>
+    <Cell><Data ss:Type="String">Attendee Sub-Category</Data></Cell>
+    <Cell><Data ss:Type="String">Registration Status</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47275991</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Laura</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Flores</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:laura@vprestigio.com"><Data
+      ss:Type="String">laura@vprestigio.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47271859</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lyra</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:cristina@artedeviajar.com.br"><Data
+      ss:Type="String">cristina@artedeviajar.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47271135</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FLAVIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEIXEIRA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:flavia@55travel.com.br"><Data
+      ss:Type="String">flavia@55travel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47268736</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RAFAEL</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DABUS</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:rafael@rddconsulting.com.br"><Data
+      ss:Type="String">rafael@rddconsulting.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47250318</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Simone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Perticarari</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:simone@perti.tur.br"><Data
+      ss:Type="String">simone@perti.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47249405</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LEONOR</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALBA BERNHOEFT</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:leonor@ltnbrasil.com.br"><Data
+      ss:Type="String">leonor@ltnbrasil.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47248002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ligia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pauletti</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ligia@dctur.com.br"><Data
+      ss:Type="String">ligia@dctur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47243196</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pedro</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Adour da Camara</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:pedro@portfoliotravel.com.br"><Data
+      ss:Type="String">pedro@portfoliotravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47242157</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA CLAUDIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">COSTA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:acosta@portobrasil.com.br"><Data
+      ss:Type="String">acosta@portobrasil.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47239740</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA CAROLINA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CURTY</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carolina@tripoliturismo.com.br"><Data
+      ss:Type="String">carolina@tripoliturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47238044</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Danilo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fiorani</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:danilo@owt.com.br"><Data
+      ss:Type="String">danilo@owt.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47225442</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CLAUDIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PALERMO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:claudia@cgpviagens.com.br"><Data
+      ss:Type="String">claudia@cgpviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">01/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">01/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47222148</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vianney</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">González Márquez</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:vianney@kiboko.com.co"><Data
+      ss:Type="String">vianney@kiboko.com.co</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47221782</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">NAISE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VICENTINI ROGLIO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:naise@conceito.tur.br"><Data
+      ss:Type="String">naise@conceito.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47221534</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lorena</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Borges</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:lorena@iviagens.com.br"><Data
+      ss:Type="String">lorena@iviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47220401</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Romina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Micha</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:rmicha@michatravel.com.ar"><Data
+      ss:Type="String">rmicha@michatravel.com.ar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47219983</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANTONIO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AYRES</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:bozoviagens@bozoviagens.com"><Data
+      ss:Type="String">bozoviagens@bozoviagens.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47218063</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA PAULA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DE MATOS</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ANAPAULA@RIVA.TUR.BR"><Data
+      ss:Type="String">ANAPAULA@RIVA.TUR.BR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47216910</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cecilia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Venegas</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:CVENEGAS@MACROTOUR.CL"><Data
+      ss:Type="String">CVENEGAS@MACROTOUR.CL</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47215766</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Claudio</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pacheco</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:claudio@kindtours.com.br"><Data
+      ss:Type="String">claudio@kindtours.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47215321</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CLAUDIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PETRY</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:cpetry@vipsturecambio.com.br"><Data
+      ss:Type="String">cpetry@vipsturecambio.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47214627</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria lucia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">THEOPHILO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mluciart@gmail.com"><Data
+      ss:Type="String">mluciart@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47214345</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FABIANA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MENDES</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fabiana@famaviagens.com.br"><Data
+      ss:Type="String">fabiana@famaviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47213034</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA LUZ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GUIZADO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:maryguizado@vipviajesperu.com"><Data
+      ss:Type="String">maryguizado@vipviajesperu.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47211136</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carolina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rocha Loures</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carolina@alliancetur.com.br"><Data
+      ss:Type="String">carolina@alliancetur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47208276</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Camila</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Olivero</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Camila_ot4@msn.com"><Data
+      ss:Type="String">Camila_ot4@msn.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47199980</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Eduardo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Santoy Martinez</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:eduardo@andrealomeli.com"><Data
+      ss:Type="String">eduardo@andrealomeli.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47194048</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Evelyne</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gebrim</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:safetur@gmail.com"><Data
+      ss:Type="String">safetur@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47188327</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA RITA WOSIACK</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TEIXEIRA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anarita@arttravel.com.br"><Data
+      ss:Type="String">anarita@arttravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47187360</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Frederico</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Levy</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:frederico@interpoint.com.br"><Data
+      ss:Type="String">frederico@interpoint.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47186934</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Italo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fantinato</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:italo@iafturismo.com.br"><Data
+      ss:Type="String">italo@iafturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47185898</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vanelle</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sá Pereira</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:vanelle@contemplarturismo.com.br"><Data
+      ss:Type="String">vanelle@contemplarturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47185527</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LUCIANE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GARCIA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:lgarcia@diariodebordo.tur.br"><Data
+      ss:Type="String">lgarcia@diariodebordo.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47182337</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rachel</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Batista</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:rachel@ativaturismo.com.br"><Data
+      ss:Type="String">rachel@ativaturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47180422</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ana Maria</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Junqueira</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anamaria@magariblu.com"><Data
+      ss:Type="String">anamaria@magariblu.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47177895</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gabriela</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carraro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:gabriela@travelplace.com.br"><Data
+      ss:Type="String">gabriela@travelplace.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47177428</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SANDRA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CAVALHEIRO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:sandra@focoviagens.com.br"><Data
+      ss:Type="String">sandra@focoviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47169734</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Cristina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Brauner Salgado</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:tina@travelworkers.com.br"><Data
+      ss:Type="String">tina@travelworkers.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47167471</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria elisa</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Toscani</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:elisa@expoenteturismo.com.br"><Data
+      ss:Type="String">elisa@expoenteturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47163831</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Juliana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Honegger</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Juliana@embarquewithus.com.br"><Data
+      ss:Type="String">Juliana@embarquewithus.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47163380</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mari Carmen</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Soberon</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mcsoberon@felgueres.com"><Data
+      ss:Type="String">mcsoberon@felgueres.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47162700</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANDRES</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GUZMAN</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:andres.guzman@frosch.com"><Data
+      ss:Type="String">andres.guzman@frosch.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47159796</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Elisa</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Macedo Soares</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:elisa@emstur.com.br"><Data
+      ss:Type="String">elisa@emstur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47159419</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Claudia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dibo</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:claudia@claudiadibo.com"><Data
+      ss:Type="String">claudia@claudiadibo.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47153990</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">WILTER</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MACHADO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:wilter@destaquetur.com.br"><Data
+      ss:Type="String">wilter@destaquetur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47153200</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MONICA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">REYES</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mreyes@jorgemartinez.com.uy"><Data
+      ss:Type="String">mreyes@jorgemartinez.com.uy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47148357</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Celso</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tsunashima</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:celso@kangaroogo.com.br"><Data
+      ss:Type="String">celso@kangaroogo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47138243</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carolina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Silva</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carolina@honeymoon.com.br"><Data
+      ss:Type="String">carolina@honeymoon.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47136288</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gabriele</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Small</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:gabriele@tourmember.com.br"><Data
+      ss:Type="String">gabriele@tourmember.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47135286</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HELOISA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DIAS DA SILVA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:heloisa@voosoloviagens.com.br"><Data
+      ss:Type="String">heloisa@voosoloviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47131679</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Priscila</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pastro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:priscila@aindamaisturismo.com.br"><Data
+      ss:Type="String">priscila@aindamaisturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47131550</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Daniela</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fernandez</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:daniela@unique.com.uy"><Data
+      ss:Type="String">daniela@unique.com.uy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47129792</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Jason</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Santamaria</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:jason.santamaria@foresttravel.com"><Data
+      ss:Type="String">jason.santamaria@foresttravel.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47128445</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Lucia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Verissimo</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ucha@linkpremium.com.br"><Data
+      ss:Type="String">ucha@linkpremium.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47109689</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA VERONICA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RIOSECO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:gerencia@kangarootours.cl"><Data
+      ss:Type="String">gerencia@kangarootours.cl</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47109324</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA DE LA PAZ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SOBERON</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mpsoberon@felgueres.com"><Data
+      ss:Type="String">mpsoberon@felgueres.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47106783</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Helena</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Felix de Souza</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mhfelix@meetingtour.com.br"><Data
+      ss:Type="String">mhfelix@meetingtour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47106418</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Todd</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cooper</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:info@hermestravel.com.br"><Data
+      ss:Type="String">info@hermestravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47105471</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SUZANNE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SOMMER SCHNEIDER</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:suzanne@elyontur.com.br"><Data
+      ss:Type="String">suzanne@elyontur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47105425</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Elisabeth</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mattos</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:elisabeth@elisabethmattosvt.com.br"><Data
+      ss:Type="String">elisabeth@elisabethmattosvt.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47104965</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Patrícia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Laburú</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:patricia@travelboutique.com.br"><Data
+      ss:Type="String">patricia@travelboutique.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47104189</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Juan Andres</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Varela</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:juanandres@batistaviajes.com.uy"><Data
+      ss:Type="String">juanandres@batistaviajes.com.uy</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47102703</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fabiana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ferrari</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fabiana@menton.com.br"><Data
+      ss:Type="String">fabiana@menton.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">28/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47102115</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">KELEN</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CASTRO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:kelen@premierturismo.com.br"><Data
+      ss:Type="String">kelen@premierturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47101916</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Liliana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Biolchini</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:lbiolchini@travelplace.com.br"><Data
+      ss:Type="String">lbiolchini@travelplace.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47101002</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANITA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SASSON</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anita@multitravelturismo.com.br"><Data
+      ss:Type="String">anita@multitravelturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47095848</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Paula</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bilenky</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:paula@venturas.com.br"><Data
+      ss:Type="String">paula@venturas.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47093664</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fernanda</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Balestra</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fernanda@fbtravel.com.br"><Data
+      ss:Type="String">fernanda@fbtravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47093627</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fernanda</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vilela</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fernanda.vilela@attualetravel.com.br"><Data
+      ss:Type="String">fernanda.vilela@attualetravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47092364</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LEONARDO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HOLST BARBOSA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:leonardo@orionoperadora.com.br"><Data
+      ss:Type="String">leonardo@orionoperadora.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47084808</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Humberto</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Murakami</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:hmurakami@gonnatravel.com.br"><Data
+      ss:Type="String">hmurakami@gonnatravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47082984</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Joseli</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cintra</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:jo@jocintraviagens.com.br"><Data
+      ss:Type="String">jo@jocintraviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47082373</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Jan</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Neumark</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:jan@viajan.com.br"><Data
+      ss:Type="String">jan@viajan.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47081543</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Katia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Araujo</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:handmade@handmadevacations.net"><Data
+      ss:Type="String">handmade@handmadevacations.net</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">26/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47080443</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TATHIANA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALMEIDA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:tathiana@taviagens.tur.br"><Data
+      ss:Type="String">tathiana@taviagens.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47077757</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Paola</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gulin</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:paola@nomadroots.com.br"><Data
+      ss:Type="String">paola@nomadroots.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47077273</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carolina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Faria</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carol@snowmass.com.br"><Data
+      ss:Type="String">carol@snowmass.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47077069</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Thiago</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bolognini de Oliveira</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:thiago@gogotravel.tur.br"><Data
+      ss:Type="String">thiago@gogotravel.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47075623</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">YANA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PINHEIRO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:yana.pinheiro@gwtravel.com.br"><Data
+      ss:Type="String">yana.pinheiro@gwtravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">25/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47072571</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Roberta</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ferraz</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:roberta@monark.tur.br"><Data
+      ss:Type="String">roberta@monark.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47071969</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andrea</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ferrari</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:andrea@ferraritour.com.br"><Data
+      ss:Type="String">andrea@ferraritour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47071549</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mariana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Belluccci de Almeida</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mariana@localturismo.com.br"><Data
+      ss:Type="String">mariana@localturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47071427</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Milena</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MAGGI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mile@originalmiles.net"><Data
+      ss:Type="String">mile@originalmiles.net</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47069927</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandre</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Milessis</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:alexandre@milessis.com.br"><Data
+      ss:Type="String">alexandre@milessis.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47069873</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Flavia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Duque</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:flavia@ag1tur.com.br"><Data
+      ss:Type="String">flavia@ag1tur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47069036</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARCIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ESKENAZI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:marciavip@turisvip.com.br"><Data
+      ss:Type="String">marciavip@turisvip.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47068995</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Fernanda</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Caramella</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:maria.fernanda@highendtravels.com.br"><Data
+      ss:Type="String">maria.fernanda@highendtravels.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47068596</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Helena</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pimentel</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:hbmturismo@infolink.com.br"><Data
+      ss:Type="String">hbmturismo@infolink.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47068335</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Arieh</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zagarodny</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:arieh@azviagens.com.br"><Data
+      ss:Type="String">arieh@azviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">27/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47068057</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ana paula</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Nascif</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anapnascif11@gmail.com"><Data
+      ss:Type="String">anapnascif11@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47067963</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Jorge</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lúcar</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:jorgelucarviajes@hotmail.com"><Data
+      ss:Type="String">jorgelucarviajes@hotmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47067587</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Alexandre</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fehr</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:alexandre@bespoketravel.com.br"><Data
+      ss:Type="String">alexandre@bespoketravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47067422</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Solange</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pukaro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:solange@inti.tur.br"><Data
+      ss:Type="String">solange@inti.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47033805</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Catherine</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Worms</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:cathy.worms@specialtrip.com.br"><Data
+      ss:Type="String">cathy.worms@specialtrip.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47032858</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Juliana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Viveiros</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:juliana@wishturismo.com.br"><Data
+      ss:Type="String">juliana@wishturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47031060</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Marcela Maria</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">De Souza</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:produtos01@4uoperadora.com.br"><Data
+      ss:Type="String">produtos01@4uoperadora.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47030033</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Juan Carlos</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Daboin</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:jcdaboin@souvenirtours.com"><Data
+      ss:Type="String">jcdaboin@souvenirtours.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47029891</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Camila De Fátima</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hilario Soares</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:camila@justtur.com.br"><Data
+      ss:Type="String">camila@justtur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47028398</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fabiola</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pellissari</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fabiola@fabiolatraveldesigner.com.br"><Data
+      ss:Type="String">fabiola@fabiolatraveldesigner.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47019588</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rcardo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Werwie</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ricardo@rbwtravel.com"><Data
+      ss:Type="String">ricardo@rbwtravel.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47014924</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bettina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Berman</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:bettina@portobelloturismo.com.br"><Data
+      ss:Type="String">bettina@portobelloturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47008833</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria del Mar</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Musciatti</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Maria@mundomba.com.ar"><Data
+      ss:Type="String">Maria@mundomba.com.ar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">23/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47006850</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carmen</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Zuniga</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carmen.zuniga@bcdtravel.com.mx"><Data
+      ss:Type="String">carmen.zuniga@bcdtravel.com.mx</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">47000118</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">JULIANNA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">BINI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:julianna@biniviagens.com.br"><Data
+      ss:Type="String">julianna@biniviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46997050</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fernanda</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Helou</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:fernanda@travelhunter.com.br"><Data
+      ss:Type="String">fernanda@travelhunter.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46993811</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Estefania</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Renz</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:estefania@phdtravel.com"><Data
+      ss:Type="String">estefania@phdtravel.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46993227</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria Marta</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rizzo Fichtner</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mariamarta@turicenter.com.br"><Data
+      ss:Type="String">mariamarta@turicenter.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46989990</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Natalia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Abreu</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:nataliaabreu2906@gmail.com"><Data
+      ss:Type="String">nataliaabreu2906@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46985448</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIO SERGIO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CAMPOS</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mario@zurichturismo.com.br"><Data
+      ss:Type="String">mario@zurichturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46973339</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Thelma</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Morales</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:tmorales@sparksevents.com.gt"><Data
+      ss:Type="String">tmorales@sparksevents.com.gt</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">22/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46970435</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PRISCILLA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TSUNASHIMA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:priscilla@wetours.com.br"><Data
+      ss:Type="String">priscilla@wetours.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46970195</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SILVANA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HUBAIDE</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:hubaide@uol.com.br"><Data
+      ss:Type="String">hubaide@uol.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">04/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46966356</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Rodrigo Luiz</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Diniz</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:rodrigo@rfviagens.com.br"><Data
+      ss:Type="String">rodrigo@rfviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46966243</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tika</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Suarez</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:tikasuarez@tikagroup.com.pe"><Data
+      ss:Type="String">tikasuarez@tikagroup.com.pe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46965263</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DANIELA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ROCHA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:danielar@itg.com.pe"><Data
+      ss:Type="String">danielar@itg.com.pe</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46964293</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">C. de pereyra iraola</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mjcpi@tastil.com.ar"><Data
+      ss:Type="String">mjcpi@tastil.com.ar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46963029</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cecilia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Indolfo</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:cecilia@diferencialtur.com.br"><Data
+      ss:Type="String">cecilia@diferencialtur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46962981</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Suely</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sarracini</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:suely@oceanosturismo.com.br"><Data
+      ss:Type="String">suely@oceanosturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46961699</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARILENE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PETRINI DART</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:marilene@bontour.com.br"><Data
+      ss:Type="String">marilene@bontour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46960669</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA Beatriz</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Monteiro Froio</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:bia@savvytour.com.br"><Data
+      ss:Type="String">bia@savvytour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46960508</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Luciana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Samaha</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:luciana@viabellu.com.br"><Data
+      ss:Type="String">luciana@viabellu.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46960339</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALEXANDRE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CLEMENTE NETO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:alexandre@infiniteturismo.com.br"><Data
+      ss:Type="String">alexandre@infiniteturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46960206</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA PAULA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PLACUCCI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anapaula@afinaltur.com.br"><Data
+      ss:Type="String">anapaula@afinaltur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46959305</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CARLOS EDUARDO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FRANCA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:cfranca@staffonetours.com.br"><Data
+      ss:Type="String">cfranca@staffonetours.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">31/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46958676</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Yara</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gomes</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:yara@manafyturismo.com.br"><Data
+      ss:Type="String">yara@manafyturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46958641</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Danielle</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Coltro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:danielle@coltroviagens.com.br"><Data
+      ss:Type="String">danielle@coltroviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46958353</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gustavo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ferreira</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:gustavo@fivetour.com.br"><Data
+      ss:Type="String">gustavo@fivetour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46956987</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIA BEATRIZ</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LAGE</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:beatriz@RUYLAGE.COM.BR"><Data
+      ss:Type="String">beatriz@RUYLAGE.COM.BR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46956219</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Viana</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:vianaturismo@vianaturismo.com.br"><Data
+      ss:Type="String">vianaturismo@vianaturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46955370</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Paula</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ribeiro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:paula@paularibeiro.tur.br"><Data
+      ss:Type="String">paula@paularibeiro.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46954144</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carol</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Lahoud</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carollahoud@yahoo.com"><Data
+      ss:Type="String">carollahoud@yahoo.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46952969</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">IVONE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TABARIN</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ivone@incantato.com.br"><Data
+      ss:Type="String">ivone@incantato.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46950055</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ORLANDO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SILVA NETO</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:neto@unikee.com.br"><Data
+      ss:Type="String">neto@unikee.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46950053</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Luciana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Castelloes Lemos</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:luciana@abctur.com.br"><Data
+      ss:Type="String">luciana@abctur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46949089</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ENMA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">HERNANDEZ</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ENMAHERNANDEZ@TRAVELINCANTO.COM"><Data
+      ss:Type="String">ENMAHERNANDEZ@TRAVELINCANTO.COM</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46948958</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vyvianni</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pedrosa</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:vyvipedrosa@soliciteturismo.com.br"><Data
+      ss:Type="String">vyvipedrosa@soliciteturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46948066</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chaddad</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:patricia@softour.com.br"><Data
+      ss:Type="String">patricia@softour.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46947317</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mariana</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Barros Meirelles</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mariana@imaginereal.com.br"><Data
+      ss:Type="String">mariana@imaginereal.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46947207</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GERALDO</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FIGUEIROA CHAGAS JR</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:geraldofcj@gmail.com"><Data
+      ss:Type="String">geraldofcj@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46946805</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PATRICIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MARIZ</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:patricia@junqueiraturismo.com.br"><Data
+      ss:Type="String">patricia@junqueiraturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46945892</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Patricia</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Assumpcao</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:bethrabelloturismo@hotmail.com"><Data
+      ss:Type="String">bethrabelloturismo@hotmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46945664</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SASSI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anesassi@fronturviajes.com.py"><Data
+      ss:Type="String">anesassi@fronturviajes.com.py</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46945619</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Diego</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Souza</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:exclusive@frt.tur.br"><Data
+      ss:Type="String">exclusive@frt.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46945377</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Andrea</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Pacito Belliboni</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:andrea@escape.tur.br"><Data
+      ss:Type="String">andrea@escape.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46944885</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Roberto</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Francisconi</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:roberto@sabaiturismo.com.br"><Data
+      ss:Type="String">roberto@sabaiturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46944271</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Emanuele</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Guedes</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:emanuele@oviajanteturismo.com.br"><Data
+      ss:Type="String">emanuele@oviajanteturismo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46939771</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Fernando</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Machado Junior</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:junior.machado@luxetravel.com.br"><Data
+      ss:Type="String">junior.machado@luxetravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46939546</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CRISTIANE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SANTANA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:tinacruvinel@gmail.com"><Data
+      ss:Type="String">tinacruvinel@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">21/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46938507</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Monica</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Haddad Leal de Godoy</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:monica@brasiliaviagens.tur.br"><Data
+      ss:Type="String">monica@brasiliaviagens.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46938000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VERYNE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MIRANDA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:contato@justgotravel.com.br"><Data
+      ss:Type="String">contato@justgotravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46937580</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA GABRIELA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">CARRILLO SOLIS</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:GABY@GLOBALTRAVEL.COM.GT"><Data
+      ss:Type="String">GABY@GLOBALTRAVEL.COM.GT</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46937340</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ANA CAROLINA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">PEREIRA GIROLA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anacarolina@azzurrotravel.com.br"><Data
+      ss:Type="String">anacarolina@azzurrotravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46936919</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carlos-Henrique</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Angelo-Abatayguara</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:ch@jetsetviagens.com.br"><Data
+      ss:Type="String">ch@jetsetviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46936780</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bruno</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vilaça</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:bruno@superviagem.com.br"><Data
+      ss:Type="String">bruno@superviagem.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46936778</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Eduardo</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">De Paula</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:eduardo@welcometrips.com.br"><Data
+      ss:Type="String">eduardo@welcometrips.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935951</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">REGINA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">RENDA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:regina@uptravel.com.br"><Data
+      ss:Type="String">regina@uptravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935930</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">VERIDIANA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LISBOA</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:veridiana@triplink.com.br"><Data
+      ss:Type="String">veridiana@triplink.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935849</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carlos</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Federspiel</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carlos.federspiel@foresttravel.com"><Data
+      ss:Type="String">carlos.federspiel@foresttravel.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935828</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gabriel</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Cordeiro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Gabrielc@bwtoperadora.com.br"><Data
+      ss:Type="String">Gabrielc@bwtoperadora.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">24/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935536</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carolina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vilela</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:carolina@tastetheworld.me"><Data
+      ss:Type="String">carolina@tastetheworld.me</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935492</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Paulina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Giovagnoli</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Paulina@thetravelstudio.com.ar"><Data
+      ss:Type="String">Paulina@thetravelstudio.com.ar</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935484</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Davi</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Muniz</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:davi@dmtur.com.br"><Data
+      ss:Type="String">davi@dmtur.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935331</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kellen Cristina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Masuchette Eduardo</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:Kellen@luniktravel.com.br"><Data
+      ss:Type="String">Kellen@luniktravel.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935302</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Vera</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gattaz</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:vera@lespacetours.com.br"><Data
+      ss:Type="String">vera@lespacetours.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935273</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Gustavo Angel</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Garcia Schwindt</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:gustavo.schwindt@viajesmemorables.com"><Data
+      ss:Type="String">gustavo.schwindt@viajesmemorables.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935270</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Felipe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Bezerra</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:felipe@oikos.tur.br"><Data
+      ss:Type="String">felipe@oikos.tur.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935266</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LETICIA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Westin</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:leticia@flyme.com.br"><Data
+      ss:Type="String">leticia@flyme.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935265</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ELIENE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ALVES</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:comercial@elienemartins.com"><Data
+      ss:Type="String">comercial@elienemartins.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">30/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935199</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Simone</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Dini</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:simone@assessorato.com.br"><Data
+      ss:Type="String">simone@assessorato.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935198</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">DANIELLE</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">FILIPPOZZI</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:contato@daniellefilippozzi.com.br"><Data
+      ss:Type="String">contato@daniellefilippozzi.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935149</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ROBERTA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">LEROY</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:roberta@leroyviagens.com.br"><Data
+      ss:Type="String">roberta@leroyviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935148</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">SHEILA</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">ZATZ</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:SHEILA@SUMMITTUR.COM.BR"><Data
+      ss:Type="String">SHEILA@SUMMITTUR.COM.BR</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935058</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Daniela</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Furtado</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:daniela@vetruviagens.com.br"><Data
+      ss:Type="String">daniela@vetruviagens.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">03/02/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46935011</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Marcus</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Carneiro</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:marcus@stepaway.com.br"><Data
+      ss:Type="String">marcus@stepaway.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">29/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46934839</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Ana Carolina</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Salvatore</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:anacarolinasalvatore@gmail.com"><Data
+      ss:Type="String">anacarolinasalvatore@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">46929740</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Mila</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chiyoda</Data></Cell>
+    <Cell ss:StyleID="s64" ss:HRef="mailto:mila.chiyoda@reedexpo.com.br"><Data
+      ss:Type="String">mila.chiyoda@reedexpo.com.br</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">20/01/2020</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Main Buyer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Confirmed</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>171</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <RangeSelection>R3C1:R178C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Planilha2">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="170" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s67" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Row>
+    <Cell><Data ss:Type="String">Etouches</Data></Cell>
+    <Cell><Data ss:Type="String">Banco</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">ReferenceNumber</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ErrorMessage</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46929740</Data></Cell>
+    <Cell><Data ss:Type="String">46929740</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">47105471</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">String or binary data would be truncated.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935011</Data></Cell>
+    <Cell><Data ss:Type="String">46935011</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">47068995</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">String or binary data would be truncated.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935058</Data></Cell>
+    <Cell><Data ss:Type="String">46935058</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">47029891</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Reference Number nao encontrado na Buyer</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935148</Data></Cell>
+    <Cell><Data ss:Type="String">46935148</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">46964293</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">String or binary data would be truncated.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935149</Data></Cell>
+    <Cell><Data ss:Type="String">46935149</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">47128445</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Não aparece na tabela de log erro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935198</Data></Cell>
+    <Cell><Data ss:Type="String">46935198</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">46947317</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Não aparece na tabela de log erro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935199</Data></Cell>
+    <Cell><Data ss:Type="String">46935199</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s71"><Data ss:Type="Number">46934839</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Não aparece na tabela de log erro</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935265</Data></Cell>
+    <Cell><Data ss:Type="String">46935265</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935266</Data></Cell>
+    <Cell><Data ss:Type="String">46935266</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935270</Data></Cell>
+    <Cell><Data ss:Type="String">46935270</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935273</Data></Cell>
+    <Cell><Data ss:Type="String">46935273</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935302</Data></Cell>
+    <Cell><Data ss:Type="String">46935302</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935331</Data></Cell>
+    <Cell><Data ss:Type="String">46935331</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935484</Data></Cell>
+    <Cell><Data ss:Type="String">46935484</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935492</Data></Cell>
+    <Cell><Data ss:Type="String">46935492</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935536</Data></Cell>
+    <Cell><Data ss:Type="String">46935536</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935828</Data></Cell>
+    <Cell><Data ss:Type="String">46935828</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935849</Data></Cell>
+    <Cell><Data ss:Type="String">46935849</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935930</Data></Cell>
+    <Cell><Data ss:Type="String">46935930</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46935951</Data></Cell>
+    <Cell><Data ss:Type="String">46935951</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46936778</Data></Cell>
+    <Cell><Data ss:Type="String">46936778</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46936780</Data></Cell>
+    <Cell><Data ss:Type="String">46936780</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46936919</Data></Cell>
+    <Cell><Data ss:Type="String">46936919</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46937340</Data></Cell>
+    <Cell><Data ss:Type="String">46937340</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46937580</Data></Cell>
+    <Cell><Data ss:Type="String">46937580</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46938000</Data></Cell>
+    <Cell><Data ss:Type="String">46938000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46938507</Data></Cell>
+    <Cell><Data ss:Type="String">46938507</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46939546</Data></Cell>
+    <Cell><Data ss:Type="String">46939546</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46939771</Data></Cell>
+    <Cell><Data ss:Type="String">46939771</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46944271</Data></Cell>
+    <Cell><Data ss:Type="String">46944271</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46944885</Data></Cell>
+    <Cell><Data ss:Type="String">46944885</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46945377</Data></Cell>
+    <Cell><Data ss:Type="String">46945377</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46945619</Data></Cell>
+    <Cell><Data ss:Type="String">46945619</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46945664</Data></Cell>
+    <Cell><Data ss:Type="String">46945664</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46945892</Data></Cell>
+    <Cell><Data ss:Type="String">46945892</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46946805</Data></Cell>
+    <Cell><Data ss:Type="String">46946805</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46947207</Data></Cell>
+    <Cell><Data ss:Type="String">46947207</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46948066</Data></Cell>
+    <Cell><Data ss:Type="String">46948066</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46948958</Data></Cell>
+    <Cell><Data ss:Type="String">46948958</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46949089</Data></Cell>
+    <Cell><Data ss:Type="String">46949089</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46950053</Data></Cell>
+    <Cell><Data ss:Type="String">46950053</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46950055</Data></Cell>
+    <Cell><Data ss:Type="String">46950055</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46952969</Data></Cell>
+    <Cell><Data ss:Type="String">46952969</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46954144</Data></Cell>
+    <Cell><Data ss:Type="String">46954144</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46955370</Data></Cell>
+    <Cell><Data ss:Type="String">46955370</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46956219</Data></Cell>
+    <Cell><Data ss:Type="String">46956219</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46956987</Data></Cell>
+    <Cell><Data ss:Type="String">46956987</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46958353</Data></Cell>
+    <Cell><Data ss:Type="String">46958353</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46958641</Data></Cell>
+    <Cell><Data ss:Type="String">46958641</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46958676</Data></Cell>
+    <Cell><Data ss:Type="String">46958676</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46959305</Data></Cell>
+    <Cell><Data ss:Type="String">46959305</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46960206</Data></Cell>
+    <Cell><Data ss:Type="String">46960206</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46960339</Data></Cell>
+    <Cell><Data ss:Type="String">46960339</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46960508</Data></Cell>
+    <Cell><Data ss:Type="String">46960508</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46960669</Data></Cell>
+    <Cell><Data ss:Type="String">46960669</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46961699</Data></Cell>
+    <Cell><Data ss:Type="String">46961699</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46962981</Data></Cell>
+    <Cell><Data ss:Type="String">46962981</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46963029</Data></Cell>
+    <Cell><Data ss:Type="String">46963029</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46965263</Data></Cell>
+    <Cell><Data ss:Type="String">46965263</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46966243</Data></Cell>
+    <Cell><Data ss:Type="String">46966243</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46966356</Data></Cell>
+    <Cell><Data ss:Type="String">46966356</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46970195</Data></Cell>
+    <Cell><Data ss:Type="String">46970195</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46970435</Data></Cell>
+    <Cell><Data ss:Type="String">46970435</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46973339</Data></Cell>
+    <Cell><Data ss:Type="String">46973339</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46985448</Data></Cell>
+    <Cell><Data ss:Type="String">46985448</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46989990</Data></Cell>
+    <Cell><Data ss:Type="String">46989990</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46993227</Data></Cell>
+    <Cell><Data ss:Type="String">46993227</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46993811</Data></Cell>
+    <Cell><Data ss:Type="String">46993811</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">46997050</Data></Cell>
+    <Cell><Data ss:Type="String">46997050</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47000118</Data></Cell>
+    <Cell><Data ss:Type="String">47000118</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47006850</Data></Cell>
+    <Cell><Data ss:Type="String">47006850</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47008833</Data></Cell>
+    <Cell><Data ss:Type="String">47008833</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47014924</Data></Cell>
+    <Cell><Data ss:Type="String">47014924</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47019588</Data></Cell>
+    <Cell><Data ss:Type="String">47019588</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47028398</Data></Cell>
+    <Cell><Data ss:Type="String">47028398</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47030033</Data></Cell>
+    <Cell><Data ss:Type="String">47030033</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47031060</Data></Cell>
+    <Cell><Data ss:Type="String">47031060</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47032858</Data></Cell>
+    <Cell><Data ss:Type="String">47032858</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47033805</Data></Cell>
+    <Cell><Data ss:Type="String">47033805</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47067422</Data></Cell>
+    <Cell><Data ss:Type="String">47067422</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47067587</Data></Cell>
+    <Cell><Data ss:Type="String">47067587</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47067963</Data></Cell>
+    <Cell><Data ss:Type="String">47067963</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47068057</Data></Cell>
+    <Cell><Data ss:Type="String">47068057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47068335</Data></Cell>
+    <Cell><Data ss:Type="String">47068335</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47068596</Data></Cell>
+    <Cell><Data ss:Type="String">47068596</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47069036</Data></Cell>
+    <Cell><Data ss:Type="String">47069036</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47069873</Data></Cell>
+    <Cell><Data ss:Type="String">47069873</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47069927</Data></Cell>
+    <Cell><Data ss:Type="String">47069927</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47071427</Data></Cell>
+    <Cell><Data ss:Type="String">47071427</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47071549</Data></Cell>
+    <Cell><Data ss:Type="String">47071549</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47071969</Data></Cell>
+    <Cell><Data ss:Type="String">47071969</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47072571</Data></Cell>
+    <Cell><Data ss:Type="String">47072571</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47075623</Data></Cell>
+    <Cell><Data ss:Type="String">47075623</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47077069</Data></Cell>
+    <Cell><Data ss:Type="String">47077069</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47077273</Data></Cell>
+    <Cell><Data ss:Type="String">47077273</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47077757</Data></Cell>
+    <Cell><Data ss:Type="String">47077757</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47080443</Data></Cell>
+    <Cell><Data ss:Type="String">47080443</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47081543</Data></Cell>
+    <Cell><Data ss:Type="String">47081543</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47082373</Data></Cell>
+    <Cell><Data ss:Type="String">47082373</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47082984</Data></Cell>
+    <Cell><Data ss:Type="String">47082984</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47084808</Data></Cell>
+    <Cell><Data ss:Type="String">47084808</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47092364</Data></Cell>
+    <Cell><Data ss:Type="String">47092364</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47093627</Data></Cell>
+    <Cell><Data ss:Type="String">47093627</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47093664</Data></Cell>
+    <Cell><Data ss:Type="String">47093664</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47095848</Data></Cell>
+    <Cell><Data ss:Type="String">47095848</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47101002</Data></Cell>
+    <Cell><Data ss:Type="String">47101002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47101916</Data></Cell>
+    <Cell><Data ss:Type="String">47101916</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47102115</Data></Cell>
+    <Cell><Data ss:Type="String">47102115</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47102703</Data></Cell>
+    <Cell><Data ss:Type="String">47102703</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47104189</Data></Cell>
+    <Cell><Data ss:Type="String">47104189</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47104965</Data></Cell>
+    <Cell><Data ss:Type="String">47104965</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47105425</Data></Cell>
+    <Cell><Data ss:Type="String">47105425</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47106418</Data></Cell>
+    <Cell><Data ss:Type="String">47106418</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47106783</Data></Cell>
+    <Cell><Data ss:Type="String">47106783</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47109324</Data></Cell>
+    <Cell><Data ss:Type="String">47109324</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47109689</Data></Cell>
+    <Cell><Data ss:Type="String">47109689</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47129792</Data></Cell>
+    <Cell><Data ss:Type="String">47129792</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47131550</Data></Cell>
+    <Cell><Data ss:Type="String">47131550</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47131679</Data></Cell>
+    <Cell><Data ss:Type="String">47131679</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47135286</Data></Cell>
+    <Cell><Data ss:Type="String">47135286</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47136288</Data></Cell>
+    <Cell><Data ss:Type="String">47136288</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47138243</Data></Cell>
+    <Cell><Data ss:Type="String">47138243</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47148357</Data></Cell>
+    <Cell><Data ss:Type="String">47148357</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47153200</Data></Cell>
+    <Cell><Data ss:Type="String">47153200</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47153990</Data></Cell>
+    <Cell><Data ss:Type="String">47153990</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47159419</Data></Cell>
+    <Cell><Data ss:Type="String">47159419</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47159796</Data></Cell>
+    <Cell><Data ss:Type="String">47159796</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47162700</Data></Cell>
+    <Cell><Data ss:Type="String">47162700</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47163380</Data></Cell>
+    <Cell><Data ss:Type="String">47163380</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47163831</Data></Cell>
+    <Cell><Data ss:Type="String">47163831</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47167471</Data></Cell>
+    <Cell><Data ss:Type="String">47167471</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47169734</Data></Cell>
+    <Cell><Data ss:Type="String">47169734</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47177428</Data></Cell>
+    <Cell><Data ss:Type="String">47177428</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47177895</Data></Cell>
+    <Cell><Data ss:Type="String">47177895</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47180422</Data></Cell>
+    <Cell><Data ss:Type="String">47180422</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47182337</Data></Cell>
+    <Cell><Data ss:Type="String">47182337</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47185527</Data></Cell>
+    <Cell><Data ss:Type="String">47185527</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47185898</Data></Cell>
+    <Cell><Data ss:Type="String">47185898</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47186934</Data></Cell>
+    <Cell><Data ss:Type="String">47186934</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47187360</Data></Cell>
+    <Cell><Data ss:Type="String">47187360</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47188327</Data></Cell>
+    <Cell><Data ss:Type="String">47188327</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47194048</Data></Cell>
+    <Cell><Data ss:Type="String">47194048</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47199980</Data></Cell>
+    <Cell><Data ss:Type="String">47199980</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47208276</Data></Cell>
+    <Cell><Data ss:Type="String">47208276</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47211136</Data></Cell>
+    <Cell><Data ss:Type="String">47211136</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47213034</Data></Cell>
+    <Cell><Data ss:Type="String">47213034</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47214345</Data></Cell>
+    <Cell><Data ss:Type="String">47214345</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47214627</Data></Cell>
+    <Cell><Data ss:Type="String">47214627</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47215321</Data></Cell>
+    <Cell><Data ss:Type="String">47215321</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47215766</Data></Cell>
+    <Cell><Data ss:Type="String">47215766</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47216910</Data></Cell>
+    <Cell><Data ss:Type="String">47216910</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47218063</Data></Cell>
+    <Cell><Data ss:Type="String">47218063</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47219983</Data></Cell>
+    <Cell><Data ss:Type="String">47219983</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47220401</Data></Cell>
+    <Cell><Data ss:Type="String">47220401</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47221534</Data></Cell>
+    <Cell><Data ss:Type="String">47221534</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47221782</Data></Cell>
+    <Cell><Data ss:Type="String">47221782</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47222148</Data></Cell>
+    <Cell><Data ss:Type="String">47222148</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47225442</Data></Cell>
+    <Cell><Data ss:Type="String">47225442</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47238044</Data></Cell>
+    <Cell><Data ss:Type="String">47238044</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47239740</Data></Cell>
+    <Cell><Data ss:Type="String">47239740</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47242157</Data></Cell>
+    <Cell><Data ss:Type="String">47242157</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47243196</Data></Cell>
+    <Cell><Data ss:Type="String">47243196</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47248002</Data></Cell>
+    <Cell><Data ss:Type="String">47248002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47249405</Data></Cell>
+    <Cell><Data ss:Type="String">47249405</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47250318</Data></Cell>
+    <Cell><Data ss:Type="String">47250318</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47268736</Data></Cell>
+    <Cell><Data ss:Type="String">47268736</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47271135</Data></Cell>
+    <Cell><Data ss:Type="String">47271135</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47271859</Data></Cell>
+    <Cell><Data ss:Type="String">47271859</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">47275991</Data></Cell>
+    <Cell><Data ss:Type="String">47275991</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
